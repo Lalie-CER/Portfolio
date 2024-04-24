@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"> <!--Lien entre css et html-->
+    <script src="script.js" defer></script>
     
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css"> <!--Lien entre le site font awesome et notre code-->
 
@@ -24,9 +27,9 @@
     </nav>
 </header> <!--Fin du header-->
 <main>
-    <div class="container slogant flex between aligh-center"> <!--Slogant attrape l'oeil-->
+    <div class="container slogant flex between aligh-center" data-aos="fade-down-left"> <!--Slogant attrape l'oeil-->
         <div class="intro">
-            <h2>Hello</h2>
+            <h2 class="inde">Hello</h2>
             <h1 class="textintro">Je suis Lalie, et</p><p class="textintro gras">je m'oriente dans le monde du numérique</p>
             <nav>
                 <a href="" target="_blank" class="contact">Contactez moi !</a>
@@ -39,7 +42,7 @@
     <section class="pro flex aligh-center container">
     <h3 id="projet">Mes projets</h3> <!--Les projets en tout genre-->
     <a href="esport.html" target="_blank" class="btnpro">
-    <div class="card">
+    <div class="card" data-aos="flip-right">
         <img src="assets/tnDxaUSbRECVV48SMXmp.webp" alt="" class="proje"/>
         <div>
           <h4>Esport</h4>
@@ -52,7 +55,7 @@
     </a>
     <!--projet2 -->
     <a href="" class="btnpro">
-      <div class="card">
+      <div class="card" data-aos="flip-right">
         <img src="assets/yt_c2-251023-114219-800-resize.jpg" alt="" class="proje" />
         <div>
           <h4>Youtube</h4>
@@ -66,7 +69,7 @@
     </section>
 
     <section class="qua"> <!--Mes qualités-->
-        <div class="flex container between aligh-center">
+        <div class="flex container between aligh-center" data-aos="zoom-in-up">
         <h3 id="qualite">Mes qualités</h3>
           <div class="qualit">
             <p><img src="assets/ampoule-blanc.png" alt="" class="proje" />à l'écoute</p>
@@ -83,7 +86,7 @@
         </div>
     </section>
 
-    <div class="container">
+    <div class="container" data-aos="zoom-in-up">
         <h3>Mon parcours</h3> <!--Mon parcours-->
 <div class="parcour container">
     <div>

@@ -11,7 +11,7 @@
   header{ /*La nav barre*/
     display: flex;
     justify-content: space-between; /*mettre un espace entre les items*/
-    padding: 6px 17px;
+    padding: 1px 13px;
     background: linear-gradient(to right, #470B0B, 58%, #E7202E) padding-box;
     position: sticky; /*reste en haut de la page meme en scrollant*/
     top: 0;
@@ -71,7 +71,7 @@
     font-size: 4rem;
   }
 
-  h2{
+  .inde{
     color: white;
     width: 2rem;
   }
@@ -86,6 +86,7 @@
   }
 
   .profil{ /*Taille de l'image de profil*/
+    margin-top: 12px;
     width: 50%;
     border-radius: 23px;
   }
@@ -246,6 +247,21 @@
 
 /*Page esport*/
 .esp{
+  margin-top: 12px;
     width: 40%;
     border-radius: 23px;
+    }
+
+    .esporttext p{
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 34px;
+    }
+
+    .esporttext h2{
+      color: white;
+      text-align: left;
+      margin-left: 23px;
+      margin-top: 23px;
     }
